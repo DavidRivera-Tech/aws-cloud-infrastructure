@@ -3,10 +3,11 @@
 ## Project Overview
 This project demonstrates the deployment and configuration of AWS EC2 cloud infrastructure using a Windows Server instance. The project includes instance provisioning, security group configuration for Remote Desktop Protocol (RDP), and successful remote access to the server.
 
-## Technologies Used
-- AWS EC2
-- Windows Server 2022
+## Technologies and Services Used
+- Amazon EC2
 - AWS Security Groups
+- Amazon VPC (default networking)
+- Windows Server 2022
 - Remote Desktop Protocol (RDP)
 
 ## Objectives
@@ -25,6 +26,12 @@ An EC2 instance was launched in AWS using a free-tier eligible instance type. A 
 - Remote server access
 - Basic cloud networking concepts
 - Infrastructure validation and documentation
+
+## Architecture
+
+The diagram below illustrates the architecture used in this project. A user connects to the AWS EC2 Windows Server instance using Remote Desktop Protocol (RDP). Access to the instance is controlled through an AWS Security Group that allows inbound traffic on port 3389.
+
+![AWS EC2 Architecture](architecture/aws-ec2-architecture-diagram.png)
 
 ## Screenshots
 
@@ -51,9 +58,10 @@ Shows successful RDP access to the Windows Server instance.
 ## Outcome
 This project demonstrates foundational AWS cloud infrastructure skills, including compute provisioning, access control configuration, and remote system administration.
 
-## Next Steps
-Future improvements for this project could include:
-- deploying multiple EC2 instances
-- adding architecture diagrams
-- automating deployment with Infrastructure as Code tools such as Terraform
-- expanding to load balancing and auto scaling
+## Future Improvements
+Potential enhancements to this infrastructure include:
+
+- deploying multiple EC2 instances behind a load balancer
+- implementing auto scaling for high availability
+- automating infrastructure deployment using Terraform or AWS CloudFormation
+- configuring monitoring using Amazon CloudWatch
