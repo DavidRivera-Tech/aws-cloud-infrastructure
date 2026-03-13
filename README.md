@@ -58,15 +58,18 @@ Shows successful RDP access to the Windows Server instance.
 ![RDP Connection](screenshots/rdp-connection.png)
 
 ## Repository Structure
+
+```
 aws-cloud-infrastructure
 ├── README.md
 ├── screenshots
-│ ├── ec2-instance-running.png
-│ ├── ec2-instance-details.png
-│ ├── security-group-rules.png
-│ └── rdp-connection.png
+│   ├── ec2-instance-running.png
+│   ├── ec2-instance-details.png
+│   ├── security-group-rules.png
+│   └── rdp-connection.png
 └── architecture
-└── aws-ec2-architecture-diagram.png
+    └── aws-ec2-architecture-diagram.png
+```
 
 ## Outcome
 This project demonstrates foundational AWS cloud infrastructure skills, including compute provisioning, access control configuration, and remote system administration.
@@ -78,3 +81,4 @@ Potential enhancements to this infrastructure include:
 - implementing auto scaling for high availability
 - automating infrastructure deployment using Terraform or AWS CloudFormation
 - configuring monitoring using Amazon CloudWatch
+
