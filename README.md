@@ -1,5 +1,7 @@
 # AWS Cloud Infrastructure Deployment
 
+Infrastructure Project | AWS Cloud | EC2 Deployment
+
 ## Project Overview
 This project demonstrates the deployment and configuration of AWS EC2 cloud infrastructure using a Windows Server instance. The project includes instance provisioning, security group configuration for Remote Desktop Protocol (RDP), and successful remote access to the server.
 
@@ -54,6 +56,17 @@ Shows the inbound security rule allowing RDP access on port 3389.
 Shows successful RDP access to the Windows Server instance.
 
 ![RDP Connection](screenshots/rdp-connection.png)
+
+## Repository Structure
+aws-cloud-infrastructure
+├── README.md
+├── screenshots
+│ ├── ec2-instance-running.png
+│ ├── ec2-instance-details.png
+│ ├── security-group-rules.png
+│ └── rdp-connection.png
+└── architecture
+└── aws-ec2-architecture-diagram.png
 
 ## Outcome
 This project demonstrates foundational AWS cloud infrastructure skills, including compute provisioning, access control configuration, and remote system administration.
